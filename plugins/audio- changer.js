@@ -33,7 +33,7 @@ ptt: true
 })})
 } else throw `*المرجو الاشارة للاديو او المقطع الصوتي الذي تريد التعديل عليه${usedPrefix + command}*`
 } catch (e) { 
-throw `*المرجو الاشارة للاديو او المقطع الصوتي الذي تريد التعديل عليه${usedPrefix + command}*`
+throw e
 }}
 handler.help = ['bass', 'blown', 'deep', 'earrape', 'fast', 'fat', 'nightcore', 'reverse', 'robot', 'slow', 'smooth', 'tupai']
 handler.tags = ['audio-changer']
